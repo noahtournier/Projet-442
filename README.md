@@ -27,4 +27,5 @@ Afin de poursuivre ce projet et d'éventuellement utiliser les *Events* ou les *
 Dossier : ```Comm UART```<br>
 Cette partie se base sur le jeu de Dames présenté précédemment et ajoute une tâche permettant de gérer la réception/transmission UART. On y ajoute aussi un programme python permettant d'afficher le damier sur le PC (la partie d'affichage sur le PC ne fonctionne pas correctement). <br>
 Cette tâche présente donc deux parties, la première qui est la réception du coup. Le PC doit envoyer 'M' suivi de 4 octets représentants les lignes et colonnes du pion à bouger et les lignes et colonnes de la case libre ou le déplacer. La seconde qui est l'envoie de l'état du damier. Pour ce faire à chaque coup tactile depuis la carte STM32 on envoit l'état du damier.<br>
-Cette partie se base sur ce que l'on a vu en TP sur les liaisons UART. 
+Cette partie se base sur ce que l'on a vu en TP sur les liaisons UART. <br>
+L'affichage sur Python utilise la librairie pygame, et le programme s'inspire de ce que j'ai pu voir sur internet pour faire un affichage du damier.
